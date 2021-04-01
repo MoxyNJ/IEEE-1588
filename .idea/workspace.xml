@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="30a219bc-640b-4860-80ed-ba6ae4eb1f17" name="Default Changelist" comment="" />
+    <list default="true" id="30a219bc-640b-4860-80ed-ba6ae4eb1f17" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/PTP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PTP.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +16,17 @@
       <list>
         <option value="Python Script" />
       </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
     </option>
   </component>
   <component name="Git.Settings">
@@ -37,7 +52,7 @@
       <recent name="C:\doc\GitHub\PTP\PTP-210328\ObserverTest1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.1">
+  <component name="RunManager" selected="Python.12-算t2-t3的误差">
     <configuration name="1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PTP" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -64,9 +79,6 @@
       <module name="PTP" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PTP-210328/PTP" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -106,8 +118,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.1" />
         <item itemvalue="Python.12-算t2-t3的误差" />
+        <item itemvalue="Python.1" />
       </list>
     </recent_temporary>
   </component>
@@ -120,7 +132,7 @@
       <option name="presentableId" value="Default" />
       <updated>1617178871941</updated>
       <workItem from="1617178873170" duration="9016000" />
-      <workItem from="1617239788583" duration="114000" />
+      <workItem from="1617239788583" duration="1635000" />
     </task>
     <servers />
   </component>
